@@ -1,0 +1,466 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <meta name="viewport" content="width-device-width,initial-scale-1.0">
+        <title>portflio</title>
+        <link rel="stylesheet" href="{% static 'style.css'%}">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </head>
+    <body>
+
+        <header class="header">
+            <a href="#" class="logo">TELUGU <br>PARASURAMUDU</a>
+            <nav class="navbar">
+                <a href="#top" style="--i:1" class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#education" style="--i:3">Education</a>
+                <a href="#services" style="--i:4">services</a>
+                <a href="#skills" style="--i:5">skills</a>
+                <a href="#contact" style="--i:6">contact</a>
+
+            </nav>
+        </header>
+        <section class = "home">
+           
+
+
+
+            <div
+            class = "home-content">
+                <h2> Hello , its Me</h2>
+            
+                <h1>TELUGU PARASURAMUDU</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+                <p>web Desigener <br>and I'm studing MCA 
+                   in Rajeev Gandhi Memorial
+                   College Of Engineering & Technology.
+                   Nandyal </p>
+                  
+                <div class = home-sci>
+                    <a href="https://www.facebook.com/profile.php?id=100051013281967&mibextid=ZbWKwL" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/teluguabbai7824?igsh=MzNlNGNkZWQ4Mg==" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://wa.me/qr/IVTRJG7YTRLHE1" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://x.com/Teluguabbai7824?t=s7z0mUW-FuoxIJxzd1LPvQ&s=08" style="--i:10"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <a href="#about" class="btn-box">More About me</a>
+            </div>
+            <div class="image"> 
+                <img  src={% static "C:\django\myproject\mywebsite\static\img\myimage1.jpg" %} ></div>
+             
+                
+        
+                 <style>
+                   image{
+                    width: 100%;
+                    margin-top: 90px;
+                   } 
+                  
+                   img{
+                    width: 500px;
+                    height: 500px;
+                    display: block;
+                    border-radius: 50%;
+                    margin: auto;
+                    margin-right: 100px;
+                    margin-top: 20px;
+        
+                   }
+                    
+                   
+                    </style>
+
+        </section>
+
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <div class="image4"> 
+                    <img class="im4" src={% static "C:\django\myproject\mywebsite\static\img\myimage1.jpg" %} ></div>
+                 
+                    
+            
+                     <style>
+                       .image4{
+                        width: 100%;
+                        margin-top: 0px;
+                       } 
+                       .about-img{
+                        display: inline;
+                       }
+                      
+                       .im4{
+                        width: 450px;
+                        height: 450px;
+                        display: inline-block;
+                        border-radius: 10%;
+                        margin: auto;
+                        margin-left: 90px;
+                        margin-top: 20px;
+            
+                       }
+                       .about-text{
+                        margin-left: 900px;
+                       }
+                        
+                       
+                        </style>
+                
+                
+                
+                
+                <div class="about-text">
+                
+
+
+
+
+                    <h1>About<spam> Me</spam></h1>
+                    <p>
+                         Hello my name is parasuram. I.m studing MCA in Rajeev Gandhi Memorial<br>
+                        College Of Engineering & Technology. Nandyal<br>
+                        and I'm recently completed my Degree "BSC computer science".<br> 
+                        And my technical skills, including languages,<br>
+                        frameworks, backend development, mobile app development, and database management.<br>
+                        and I'm completed "cybersecurity" internship.<br>
+                        
+                    </p>
+                    
+                    <a href="#" class="btn-box">More About Me</a>
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+    <!----education-->
+    <section class="education" id="education">
+     <h3 class="title3">My <span>Education</span></h3>
+     <div class="row">
+         <div class="column">
+             
+             <div class="box">
+                 <div class="education-content">
+                     <div class="ed-content">
+                         <div class="year">October 2023-June 2025<i class='bx bxs-calendar'></i></div>
+                         <h3>Post Graduaction</h3>
+                         <h3>Rajeev Gandhi Memorial college of Engineering and Technology  Nandyala</h3>
+                         <p>Master of Computer Applications</p>
+                     </div>
+                 </div>
+                 <div class="education-content">
+                     <div class="ed-content">
+                         <div class="year">July 2020-June 2023 <i class='bx bxs-calendar'></i></div>
+                         <h3>Bachelor Graduaction</h3>
+                         <h3>Gnana saraswathi Degree College</h3>
+                         <p>Bachelor of Computer Science</p>
+                     </div>
+                 </div>
+                 <div class="education-content">
+                     <div class="ed-content">
+                         <div class="year">June 2018-March 2020 <i class='bx bxs-calendar'></i></div>
+                         <h3>Board of Intermediate</h3>
+                         <h3>Gnana Saraswathi junior college</h3>
+                         <p>MPC(Maths, Physics, Chemistry)</p>
+                     </div>
+                 </div>
+                 <div class="education-content">
+                     <div class="ed-content">
+                         <div class="year">June 2017-March 2018 <i class='bx bxs-calendar'></i></div>
+                         <h3>Board of Secondary Education</h3>
+                         <h3>P.C high school ,cement nagar</h3>
+                         <p>10th Class</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+
+     <style>
+         section{
+ padding: 10rem 9% 2rem;
+ min-height: 100vh;
+}
+.education{
+ display: inline;
+ margin-bottom: 30px;
+}
+.about,.education,.ed-contact,.skills{
+ overflow: hidden;
+}
+.education-content {
+ padding-left: 1.9rem;
+}
+
+.title3{
+    margin-top: 40px;
+    font-size: 5rem;
+    color: #0fdaf0;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.title3 span{
+ color: #d0d2d2;
+}
+
+
+.education-content .ed-content{
+ padding: 1.5rem;
+ margin-left: 100px;
+ margin-right: 200px;
+ border: .2rem solid #3bd8f4;
+ 
+ border-radius: .5rem;
+ margin-bottom: 2rem;
+ position: relative;
+}
+.ed-content::before{
+ content: "";
+ position: absolute;
+ left: -2.8rem;
+ top: -1.5rem;
+ height: 5%;
+ width: 70%;
+ border-radius: 50%;
+ background: #0c1010;
+
+}
+.ed-content .year{
+ font-size: 1.5rem;
+ color: #0fdaf0;
+}
+.ed-content .year i{
+ color: #1bdae0;
+ font-size: 1.5rem;
+ margin-left: .5rem;
+}
+.ed-content h3{
+ font-size: 1.7rem;
+ letter-spacing: .05rem;
+ margin: .5rem 0;
+}
+.ed-content p{
+ font-size: 1.5rem;
+}
+
+     </style>
+ </section>
+
+
+        <section>
+            <div class="service" id="services">
+                <div class="container">
+                    <h1 class="sub-title">my <span>services</span></h1>
+                    <div class="services-list">
+                        <div>
+                            <i class='bx bxs-camera' style='color:#30ecd7'  ></i>
+                            
+                            <h2>Photography</h2>
+                            <p>Lorem ipsum dolor sit amout consector adipiscing elit nisi in veniam</p>
+                            <a href="#" class="read">learn more</a>
+                        </div>
+                        <div>
+                            <i class='bx bx-crop' style='color:#07f7ed' ></i>
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amout consector adipiscing elit nisi in veniam</p>
+                            <a href="#" class="read">learn more</a>
+                        </div>
+                        <div>
+                            <i class='bx bxl-apple' style='color:#07f7ed' ></i>
+                            <h2>App Design</h2>
+                            <p>Lorem ipsum dolor sit amout consector adipiscing elit nisi in veniam</p>
+                            <a href="#" class="read">learn more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+      
+        
+        <section>
+            <h1 class="sub-title" style="align-items:center ;">My<span>Skills</span></h1>
+            <div class="container1" id="skills">
+
+
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="Technical-bars">
+                    <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5' style='color:#13f5ec'  ></i>
+                        <div class="info">
+                            <span>HTML</span>
+
+                        </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #209fee" class='bx bxl-css3' style='color:#13f5ec'  ></i>
+                    <div class="info">
+                        <span>CSS</span>
+
+                    </div>
+                    <div class="progress-line CSS">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #b0bc1e" class='bx bxl-javascript' style='color:#13f5ec'  ></i>
+                    <div class="info">
+                        <span>javascript</span>
+
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #bdd631" class='bx bxl-python' style='color:#13f5ec'  ></i>
+                    <div class="info">
+                        <span>python</span>
+
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #36bf09" class='bx bxl-django' style='color:#13f5ec'  ></i>
+                    <div class="info">
+                        <span>Django</span>
+
+                    </div>
+                    <div class="progress-line Django">
+                        <span></span>
+                    </div>
+                    <div class="bar"><i class='bx bxl-mongodb' style='color:#15e714'  ></i>
+                        <div class="info">
+                            <span>Mongodb</span>
+    
+                        </div>
+                        <div class="progress-line mongodb">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-android' style='color:#19b524'  ></i>
+                    <div class="info">
+                        <span>Android programming</span>
+                    </div>
+                    <div class="progress-line android">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Creativaty</div>
+                    </div>
+                   
+                    <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                        <div class="percentage">65%</div>
+                        <div class="text">Communication</div>
+                    </div>
+                    <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                        <div class="percentage">75%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Team work</div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>contact<span> Me</span></h2>
+                <h4>Let's work Together</h4>
+                <p> I have good knowledge in programing.<br>
+                    And I'm very intrested to develop projects.<br>
+                    so you have any project ideas contact me<br> 
+                    i will help you to develop that projects.
+
+                </p>
+                <div class="contact-list">
+                    <h4>@contact Details</h4>
+                    <li><i class='bx bx-send' style='color:#11f2e1'  ></i>  parasu7824@gmail.com</li>
+                  <a href="https://www.instagram.com/teluguabbai7824?igsh=MzNlNGNkZWQ4Mg==" ><li><i class='bx bxl-instagram' style='color:#1de5d6'  ></i>  teluguabbai7824</li></a>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100051013281967&mibextid=ZbWKwL"><i class='bx bxl-facebook' style='color:#11f2e1' ></i></a>
+                    <a href="https://x.com/Teluguabbai7824?t=s7z0mUW-FuoxIJxzd1LPvQ&s=08"><i class='bx bxl-twitter' style='color:#11f2e1' ></i></a>
+                    <a href="https://www.instagram.com/teluguabbai7824?igsh=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram' style='color:#11f2e1' ></i></a>
+                    <a href="https://wa.me/qr/IVTRJG7YTRLHE1"><i class='bx bxl-whatsapp' style='color:#11f2e1' ></i></a>
+                </div> 
+            </div>
+            <div class="contact-form">
+                <form action="" method="POST">
+                    {% csrf_token %} 
+                    <input id="name" name="name" type="text" placeholder="Name" required>
+                    <input name="email" type="email" placeholder="Enter your Email" required>
+                    <input name="subject" type="text" placeholder="Enter your subject">
+                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter your message" required></textarea>
+                <a href="#popup-box" > <button id="submit"  type="submit" value="submit" class="send">Submit</button></a>  
+
+                </form>
+
+            </div>
+
+        </section>
+        
+        <div class="lastt" >
+            <p>Developed with love by TELUGU ABBAI @2024</p>
+            <style>
+                .lastt{
+                    display: block;
+                    align-items: center;
+                    margin-left: 600px;
+                    margin-bottom: 20px;
+                }
+            </style>
+        </div>
+        <a href="#" class="top"><i class='bx bx-up-arrow-alt' style="color: #070808;"></i></a>
+        
+        <script>
+            var typed = new Typed(".text", {
+                strings: ["Frontend Developer", "Web Developer", "Android Developer"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true
+            });
+        </script>
+
+            
+    </body>
+
+
+</html>
