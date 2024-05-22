@@ -774,11 +774,12 @@ section{
 }
 
 
-
-@media screen and(max-width:600px) {
-      h1{
-        font-size: 36px;
-        line-height: 50px;
-      }    
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens up to 768px wide */
 }
+
+@media screen and (max-width: 576px) {
+    /* CSS rules for screens up to 576px wide */
+}
+
 
