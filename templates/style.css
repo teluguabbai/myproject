@@ -774,12 +774,52 @@ section{
 }
 
 
-@media screen and (max-width: 768px) {
-    /* CSS rules for screens up to 768px wide */
+
+
+
+
+
+
+/* Media Queries for responsiveness */
+
+/* For mobile screens */
+@media only screen and (max-width: 600px) {
+    /* Adjust your styles here for mobile screens */
+
+    /* For example: */
+    /* Reduce padding or margins to make content fit better */
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Adjust font sizes for better readability */
+    h1 {
+        font-size: 24px;
+    }
+
+    /* Hide or adjust complex layouts */
+    .image {
+        display: none; /* Hide the image in the home section */
+    }
+
+    /* Simplify navigation */
+    .navbar a {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* Adjust header size */
+    .header {
+        padding: 10px 0;
+    }
 }
 
-@media screen and (max-width: 576px) {
-    /* CSS rules for screens up to 576px wide */
-}
+
+
+
+
+
 
 
