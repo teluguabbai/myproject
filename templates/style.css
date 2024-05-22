@@ -783,10 +783,14 @@ section{
 /* Media Queries for responsiveness */
 
 /* For mobile screens */
+/* Media Queries for responsiveness */
+
+/* For mobile screens */
 @media only screen and (max-width: 600px) {
     /* Adjust your styles here for mobile screens */
 
-    /* For example: */
+    /* Example adjustments */
+    
     /* Reduce padding or margins to make content fit better */
     body {
         padding: 0;
@@ -798,23 +802,101 @@ section{
         font-size: 24px;
     }
 
+    /* Adjust text alignment and line height */
+    .home-content p {
+        text-align: center;
+        line-height: 1.5;
+    }
+
     /* Hide or adjust complex layouts */
     .image {
         display: none; /* Hide the image in the home section */
     }
 
     /* Simplify navigation */
+    .navbar {
+        text-align: center;
+    }
+
     .navbar a {
         display: block;
-        text-align: center;
-        margin: 10px 0;
+        margin: 10px auto;
     }
 
     /* Adjust header size */
     .header {
         padding: 10px 0;
     }
+
+    /* Adjust about section layout */
+    .about-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .im4 {
+        width: 80%; /* Adjust image width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px auto; /* Center the image */
+    }
+
+    .about-text {
+        text-align: center;
+        margin-left: 0; /* Reset left margin */
+    }
+
+    /* Adjust education section layout */
+    .education-content .ed-content {
+        padding: 1rem;
+    }
+
+    /* Adjust services section layout */
+    .services-list div {
+        margin-bottom: 20px;
+    }
+
+    /* Adjust skills section layout */
+    .container1 {
+        text-align: center;
+    }
+
+    .Technical-bars,
+    .radial-bars {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar,
+    .radial-bars {
+        margin-bottom: 20px;
+    }
+
+    /* Adjust contact section layout */
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .contact-icons {
+        margin-top: 20px;
+    }
+
+    .contact-list li {
+        margin: 5px auto;
+    }
+
+    .lastt {
+        margin-left: 0;
+        text-align: center;
+    }
 }
+
 
 
 
