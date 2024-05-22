@@ -892,8 +892,8 @@ section{
     }
 
     .lastt {
-        margin-left: 0;
-        text-align: left;
+        margin-left: 10px;
+        text-align: rigth;
     }
 }
 
